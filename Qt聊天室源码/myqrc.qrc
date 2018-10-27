@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/keyBoard.png</file>
+        <file>images/ico/setting.png</file>
+        <file>images/top_img1.png</file>
+        <file>images/top_img2.png</file>
+        <file>images/top_img3.png</file>
+        <file>images/top_img4.png</file>
+        <file>images/top_img5.png</file>
+        <file>images/ico/close.png</file>
+        <file>images/ico/mini.png</file>
+        <file>images/ico/user1.png</file>
+        <file>images/ico/user2.png</file>
+        <file>images/ico/user3.png</file>
+        <file>images/ico/user4.png</file>
+        <file>images/ico/user5.png</file>
+        <file>images/background.png</file>
+        <file>images/ico/user0.png</file>
+        <file>images/top_img0.png</file>
+        <file>images/ico/login_tray.png</file>
+        <file>images/User1.PNG</file>
+        <file>images/User2.PNG</file>
+        <file>images/User3.PNG</file>
+        <file>images/User4.png</file>
+        <file>images/User5.png</file>
+        <file>images/User6.png</file>
+        <file>images/User7.png</file>
+        <file>images/User8.png</file>
+        <file>images/User9.PNG</file>
+        <file>images/B.png</file>
+        <file>images/C.png</file>
+        <file>images/E.png</file>
+        <file>images/F.png</file>
+        <file>images/I.png</file>
+        <file>images/O.png</file>
+        <file>images/U.png</file>
+        <file>images/User10.PNG</file>
+        <file>images/S.png</file>
+        <file>images/desk.png</file>
+        <file>images/top_img7.png</file>
+        <file>images/backw.png</file>
+        <file>images/Color.png</file>
+    </qresource>
+</RCC>

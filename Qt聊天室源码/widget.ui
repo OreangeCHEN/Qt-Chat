@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>928</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(151, 236, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="10">
+    <widget class="QTextBrowser" name="msgBrowser">
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/backw.png);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="10" rowspan="3">
+    <widget class="QTableWidget" name="usrTblWidget">
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/backw.png);</string>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>用户名</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>IP地址</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QToolButton" name="boldTBtn">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="myqrc.qrc">
+       <normaloff>:/images/B.png</normaloff>:/images/B.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QToolButton" name="italicTBtn">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="myqrc.qrc">
+       <normaloff>:/images/I.png</normaloff>:/images/I.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="10">
+    <widget class="QLabel" name="usrNumLbl">
+     <property name="text">
+      <string>在线人数：0人</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QToolButton" name="underlineTBtn">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="myqrc.qrc">
+       <normaloff>:/images/U.png</normaloff>:/images/U.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QFontComboBox" name="fontCbx">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="10">
+    <widget class="QTextEdit" name="msgTxtEdit">
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/backw.png);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5">
+    <widget class="QComboBox" name="sizeCbx">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="currentIndex">
+      <number>4</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>11</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>13</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>16</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>17</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>18</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>19</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>20</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>21</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>22</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="9">
+    <widget class="QToolButton" name="sendTBtn">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="myqrc.qrc">
+       <normaloff>:/images/F.png</normaloff>:/images/F.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="7">
+    <widget class="QToolButton" name="clearTBtn">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="myqrc.qrc">
+       <normaloff>:/images/E.png</normaloff>:/images/E.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QToolButton" name="colorTBtn">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="myqrc.qrc">
+       <normaloff>:/images/C.png</normaloff>:/images/C.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="6">
+    <widget class="QPushButton" name="sendBtn">
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/backw.png);</string>
+     </property>
+     <property name="text">
+      <string>Send(S)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="7" colspan="3">
+    <widget class="QPushButton" name="exitBtn">
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/backw.png);</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="8">
+    <widget class="QToolButton" name="saveTBtn">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="myqrc.qrc">
+       <normaloff>:/images/S.png</normaloff>:/images/S.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="myqrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
